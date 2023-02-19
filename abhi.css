@@ -2,6 +2,8 @@ body{
      margin: 0px;
       
      background-image:url('background.jpg');
+     /* opacity:0.6; */
+     /* backdrop-filter: blur(2px); */
      
      background-size:cover;
      background-attachment: fixed;
@@ -10,6 +12,8 @@ body{
 }
 
 .navbar{
+     position: sticky;
+    top: 0;
     
 display: flex;
      background-color: rgb(0, 0, 0);
@@ -19,8 +23,8 @@ display: flex;
     /*border-radius: 2% / 50%;*/
      align-items: center;
    justify-content: space-between;
-    position:fixed;
-     top: 0px;
+    /* position:fixed; */
+     /* top: 0px; */
      height: 100px;
      width: 100%;
      flex-wrap: wrap;
@@ -112,6 +116,11 @@ nav a:hover
      margin-left: 50px;
 }
 #label{
+     display:block;
+     /* background-color:antiquewhite ; */
+     margin-left:10rem;
+     /* backdrop-filter:blur(8px); */
+     border-radius:30px;
      display: inline-block;
      color: rgb(0, 0, 0);
      font-size: 50px;
@@ -186,15 +195,57 @@ nav a:hover
      margin-left: 50px;
 }
 
+.af_cs1{
+     height: 0px;
+     width: 30px;
+     background: brown;
+     top:0px;
+     display: inline-block;
+     margin: 0px 30px;
+     transition: all 0.8s ease;
+}
 .sk_div1{
      height:300px;
      width: 30px;
      background:rgb(99, 27, 27);
+     /* top:0px; 
+     display: inline-block; */
+     margin: 0px 30px;
+     /* border-radius: 3px 3px 0px 0px; */
+}
+.af_cs2{
+     height:200px;
+     width: 30px;
+     background: #e60b0b;
      top:0px;
      display: inline-block;
      margin: 0px 30px;
-     border-radius: 3px 3px 0px 0px;
 }
+.af_cs3{
+     height:200px;
+     width: 30px;
+     background: #e60b0b;
+     top:0px;
+     display: inline-block;
+     margin: 0px 30px;
+}
+.af_cs4{
+     height:200px;
+     width: 30px;
+     background: #e60b0b;
+     top:0px;
+     display: inline-block;
+     margin: 0px 30px;
+}
+.af_cs5{
+     height:200px;
+     width: 30px;
+     background: #e60b0b;
+     top:0px;
+     display: inline-block;
+     margin: 0px 30px;
+}
+
 .sk_div2{
      height:260px;
      width: 30px;
@@ -230,47 +281,6 @@ nav a:hover
      display: inline-block;
      margin: 0px 30px;
      border-radius: 3px 3px 0px 0px;
-}
-
-.af_cs1{
-     height:200px;
-     width: 30px;
-     background: brown;
-     top:0px;
-     display: inline-block;
-     margin: 0px 30px;
-}
-.af_cs2{
-     height:200px;
-     width: 30px;
-     background: #e60b0b;
-     top:0px;
-     display: inline-block;
-     margin: 0px 30px;
-}
-.af_cs3{
-     height:200px;
-     width: 30px;
-     background: #e60b0b;
-     top:0px;
-     display: inline-block;
-     margin: 0px 30px;
-}
-.af_cs4{
-     height:200px;
-     width: 30px;
-     background: #e60b0b;
-     top:0px;
-     display: inline-block;
-     margin: 0px 30px;
-}
-.af_cs5{
-     height:200px;
-     width: 30px;
-     background: #e60b0b;
-     top:0px;
-     display: inline-block;
-     margin: 0px 30px;
 }
 
 .skil{
