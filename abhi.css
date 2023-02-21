@@ -426,11 +426,11 @@ footer p{
 
 
 
-@media(max-width:791px)
+@media(max-width:771px)
 {
 
 body{
-     width:100%;
+     width:771px;
      
 }
 
@@ -442,7 +442,7 @@ body{
          background-color: rgb(0, 0, 0);
          
          height: 120px;
-         width: 100%;
+         width: 771;
          flex-wrap: wrap;
         
          z-index: 99;
@@ -559,7 +559,7 @@ nav a:hover
      /* display: flex; */
      padding-top: 160px;
      background-color:rgba(0, 0, 0, 0.287);
-     width:100%;
+     width:771;
 }
 #myimg{
      height: 600px;
