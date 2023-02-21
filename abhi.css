@@ -8,7 +8,7 @@ body{
      background-size:cover;
      background-attachment: fixed;
      
-     /* width:100 */
+     width:100%;
 }
 
 .navbar{
@@ -92,6 +92,7 @@ nav a:hover
      display: flex;
      padding-top: 120px;
      background-color:rgba(0, 0, 0, 0.287);
+     width:100%;
 }
 #myimg{
      height: 380px;
@@ -344,6 +345,7 @@ nav a:hover
      background-color:rgba(0, 0, 0, 0.287);
      height:2600px;
      padding-top: 100px;
+     width:100%;
 }
 #ho{
     
@@ -407,284 +409,20 @@ footer p{
 
 
 
-@media(max-width:791px) and (min-width:)
-{
-
-body{
-     width: 791px;
-     
-}
-
-     .navbar{
-          position:fixed;
-         top: 0;
-         
-          display: flex;
-          background-color: rgb(0, 0, 0);
-          height: 100px;
-          width: 791px;
-          
-          z-index: 99;
-          transition: .7s;
-         
-     }
-     .header-scrolled{
-          background-color: rgba(0, 0, 0, 0.655);
-          height:90px;
-          position:fixed;
-          /* width: 769px; */
-
-     }
-     .header-scrolled1{
-          background-color: rgba(239, 210, 22, 0.654);
-          padding: 5px;
-          color:black;
-         
-     }
-     #logo{
-          /* position: sticky; */
-          visibility: hidden;
-         
-     }
-     
-nav ul li{
-     display: inline-block;
-     margin: 5px;
-     transform: translateX(-100px);
-}
-
-nav a{
-     color: rgb(255, 255, 255);
-     /* background-color: rgba(250, 250, 0, 0.578); */
-     border:solid rgb(248, 245, 247);
-     padding: 5px;
-     text-decoration:none;
-     font-weight: bold;
-     border-radius: 10px;
-     transition: 0.3s;
-     border: rgb(247, 244, 246);
-     font-size: 20px;
-    
-}
-nav a:hover
-{
-     background-color: rgb(239, 210, 22);
-     border:solid rgb(248, 245, 247);
-     padding: 10px;
-     box-shadow: 0 0.7em 0.9em -0.4em yellow;
-     color:black;
-     text-decoration:underline solid black 2px;
-}
-#home
-{
-     
-     height:1024px;
-     /* display: flex; */
-     padding-top: 160px;
-     background-color:rgba(0, 0, 0, 0.287);
-     width: 790px;
-}
-#myimg{
-     height: 600px;
-     width: 400px;
-     border-radius: 25% 10%;
-     /* display: inline-block; */
-     margin-left: 200px;
-}
-#label{
-     color:white;
-     /* width: 2000px; */
-     /* display:block; */
-     /* background-color:antiquewhite ; */
-     /* margin-left:10rem; */
-     /* backdrop-filter:blur(8px); */
-     /* border-radius:30px; */
-     /* display: inline-block; */
-     /* color: rgb(0, 0, 0); */
-     padding: 0px;
-     font-size: 50px;
-     transform: translate(-600px,650px);
-}
-#label p{
-    width: 600px;
-}
-     
-
-
-#edu{
-     height:1240px;
-     background-color:rgba(0, 0, 0, 0.287);
-}
 
 
 
 
-#ed{
-     color:rgb(253, 253, 253);
-     font-size: 50px;
-     text-decoration:underline solid rgb(168, 127, 127) 5px;
-     margin-top: 250px;
-      margin-left: 260px;
-     margin-bottom: 100px;
-}
-
-.content{
-     height:500px;
-     width: 600px;
-     background-color: rgb(209, 222, 147);
-     box-shadow: 0 20px 40px rgb(0, 0, 0);
-     border-radius:30px;
-     border: solid white;
-     
-}
-
-#ed_div{
-     width: 400px;
-     height: 900px;
-}
-
-.slider-frame{
-     overflow: hidden;
-     height: 800px;
-     width: 600px;
-     margin-left: 0px;
-     margin-top: 20px;
-}
-@-webkit-keyframes slide_animation{
-     0%{left:0px;}
-     10%{left:0px;}
-     20%{left:1200px;}
-     30%{left:1200px;}
-     40%{left:2400px;}
-     50%{left:2400px;}
-     60%{left:1200px;}
-     70%{left:1200px;}
-     80%{left:1200px;}
-     90%{left:0px;}
-     100%{left:0px;}
-}
-.slide-images{
-     width:3000px;
-     height:800px;
-     margin: 0 0 0 -3450px;
-     position: relative;
-     -webkit-animation-name: slide_animation;
-     -webkit-animation-duration: 20s;
-     -webkit-animation-iteration-count: infinite;
-     -webkit-animation-play-state: running;
-     -webkit-animation-direction: alternative;
-}
-.img-container{
-     height:800px;
-     width:900px;
-     /* position :relative; */
-     float:right;
-     margin: 0px;
-     padding: 0px;
-}
-
-#skills{
-     background-color:rgba(0, 0, 0, 0.287);
-     height: 1240px;
-     padding-top: 100px;
-}
-#sk{
-     color:rgb(253, 253, 253);
-     font-size: 50px;
-     text-decoration:underline solid rgb(168, 127, 127) 5px;
-     margin-left: 290px;
-    margin-top: 150px;
-    margin-bottom: 40px;
-}
-
-.af_cs1{
-     height:300px;
-     width: 30px;
-     background:rgb(99, 27, 27);
-     /* top:0px; 
-     display: inline-block; */
-     margin: 0px 30px;
-     /* border-radius: 3px 3px 0px 0px; */
-}
-
-.af_cs2{
-     height:260px;
-     width: 30px;
-     background:rgb(99, 27, 27);
-     /* top:0px; 
-     display: inline-block; */
-     margin: 0px 30px;
-     /* border-radius: 3px 3px 0px 0px; */
-}
-.af_cs3{
-     height:200px;
-     width: 30px;
-     background:rgb(99, 27, 27);
-     /* top:0px; 
-     display: inline-block; */
-     margin: 0px 30px;
-}
-.af_cs4{
-     height:260px;
-     width: 30px;
-     background:rgb(99, 27, 27);
-     /* top:0px; 
-     display: inline-block; */
-     margin: 0px 30px;
-}
-.af_cs5{
-     height:200px;
-     width: 30px;
-     background:rgb(99, 27, 27);
-     /* top:0px; 
-     display: inline-block; */
-     margin: 0px 30px;
-}
-
-#ho{
-     color:rgb(253, 253, 253);
-     font-size: 50px;
-     text-decoration:underline solid rgb(168, 127, 127) 5px;
-     margin-top: 100px;
-      margin-left: 260px;
-     margin-bottom: 30px;
-}
 
 
-.a{
-     top: 0px;
-     height:500px;
-     width: 40%;
-     display:inline-block;
-     
-     margin-left: 80px;
-     padding: 0px;
-}
 
-.b{
-   top:0px;
-   height:500px;
-     width: 40%;
-     display:inline-block;
-     
-     padding: 0px;    
-}
-.img{
-     border-radius: 3px;
-     height:500px;
-     width: 100%;
-}
-#hobs{
-     background-color:rgba(0, 0, 0, 0.287);
-     height:2600px;
-     padding-top: 0px;
-}
 
-#hobs p{
-       color: rgb(10, 184, 237);
-}
 
-}
+
+
+
+
+
 
 
 
@@ -692,7 +430,7 @@ nav a:hover
 {
 
 body{
-     width: 791px;
+     width:100%;
      
 }
 
@@ -704,7 +442,7 @@ body{
          background-color: rgb(0, 0, 0);
          
          height: 120px;
-         width: 791px;
+         width: 100%;
          flex-wrap: wrap;
         
          z-index: 99;
@@ -821,7 +559,7 @@ nav a:hover
      /* display: flex; */
      padding-top: 160px;
      background-color:rgba(0, 0, 0, 0.287);
-     width: 790px;
+     width:100%;
 }
 #myimg{
      height: 600px;
@@ -1033,6 +771,7 @@ nav a:hover
      height:100%;
      padding-top: 0px;
      padding-bottom:20% ;
+     width: 100%;
 }
 
 #hobs p{
