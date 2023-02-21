@@ -13,29 +13,29 @@
 
 <source>
 <nav class="navbar">
-
+    
     <img src="large.png" height="90px" id="logo">
-
+    <p id="menu" onclick="ch_nav()"><i class="fa-solid fa-bars"></i></p>
     <ul >
-  <li>  
+  <li class="li1">  
     <a href="#home" class="cl1">HOME</a>
    
 </li>
-   <li>
+   <li class="li2">
         <a href="#edu" class="cl2">EDUCATION
         </a>
   
     </li>
-<li>     
+<li class="li3">     
             <a href="#skills" class="cl3">SKILLS</a>
            
         </li>
 
-        <li>  
+        <li class="li4">  
             <a href="#hobs" class="cl4">HOBBIES</a>
            
         </li>
-        <li>     
+        <li class="li5">     
             <a href="#cont" class="cl5">CONTACT ME</a>
         </li>
     
@@ -138,22 +138,22 @@
         <header id="ho">HOBBIES</header> 
    <br><br> 
    <center>   <div style="background-color: rgb(0, 0, 0); padding: 0px; width: 80%; border-radius: 10px;">
-    <br><br><div style="display: flex;">
+    <br><br><div class="ho_div1">
         <div class="a"><center> <img src="sae.jpg" alt="sae" class="img"> </center></div>
-     <div class="b"><center><p style="margin-top: 150px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px;">I was in the <b>aerothon team(SAE club)</b>.<br> our team aimed to build a payload delivery drone.</p></center></div>
+     <div class="b"><center><p>I was in the <b>aerothon team(SAE club)</b>.<br> our team aimed to build a payload delivery drone.</p></center></div>
     </div>
-    <div style="display: flex;">
-        <div class="a"><center><p style="margin-top: 150px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px;">I love <b>playing badminton</b>.<br>I have represented my state(karnataka) twice at<br> National level.</p></center></div>
+    <div class="ho_div2">
+        <div class="a"><center><p>I love <b>playing badminton</b>.<br>I have represented my state(karnataka) twice at<br> National level.</p></center></div>
         <div class="b"><center><img src="bad.jpg" alt="sae" class="img"> </center></div>
        </div>
     
-       <div style="display: flex;">
+       <div class="ho_div1">
         <div class="a"><center> <img src="tabala.jpg" alt="sae" class="img"> </center></div>
-     <div class="b"><center><p style="margin-top: 150px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px;">I like playing <b>tabla</b>.<br>Which helps to release my stress.</p></center></div>
+     <div class="b"><center><p>I like playing <b>tabla</b>.<br>Which helps to release my stress.</p></center></div>
     </div>
 
-    <div style="display: flex;">
-        <div class="a"><center><p style="margin-top: 150px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px;">I like to do miniature craft in my free time.</p></center></div>
+    <div class="ho_div2">
+        <div class="a"><center><p>I like to do miniature craft in my free time.</p></center></div>
         <div class="b"><center><img src="craft.jpg" alt="sae" class="img"> </center></div>
        </div>
     <br><br>
@@ -238,6 +238,25 @@
         }
       });
        
+     function ch_nav(){
+            const e1=document.querySelector('.navbar');
+            const e2=document.querySelector('#logo');
+            const e3=document.querySelector('.li1');
+            const e4=document.querySelector('.li2');
+            const e5=document.querySelector('.li3');
+            const e6=document.querySelector('.li4');
+            const e7=document.querySelector('.li5');
+            e1.classList.toggle('new_nav');
+            e2.classList.toggle('logo');
+            e3.classList.toggle('new_icn');
+            e4.classList.toggle('new_icn');
+            e5.classList.toggle('new_icn');
+            e6.classList.toggle('new_icn');
+            e7.classList.toggle('new_icn');
+            
+
+     }
+
 </script>
 
 </body>
